@@ -454,6 +454,43 @@ footer {
     cursor: pointer;
 }
 
+.menu-hero {
+    padding: 10rem 5% 5rem;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1410 0%, #2d1f16 50%, #1a1410 100%);
+}
+
+.menu-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #d4a574;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.menu-hero p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.full-menu {
+    padding: 3rem 10%;
+}
+
+.menu-category {
+    margin-bottom: 5rem;
+}
+
+.menu-category h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4a574;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
 @media (max-width: 768px) {
     nav ul {
         gap: 1.5rem;
@@ -461,6 +498,10 @@ footer {
     
     .hero-content h1 {
         font-size: 3rem;
+    }
+    
+    .menu-hero h1 {
+        font-size: 2.5rem;
     }
     
     .features {
