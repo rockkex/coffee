@@ -491,6 +491,114 @@ footer {
     letter-spacing: 2px;
 }
 
+.about-hero {
+    padding: 10rem 5% 5rem;
+    text-align: center;
+    background: linear-gradient(135deg, #1a1410 0%, #2d1f16 50%, #1a1410 100%);
+}
+
+.about-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #d4a574;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.about-hero p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.about-content {
+    padding: 3rem 10%;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.about-section.reverse {
+    direction: rtl;
+}
+
+.about-section.reverse > * {
+    direction: ltr;
+}
+
+.about-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #d4a574;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.about-text p {
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+.team-section {
+    padding: 5rem 10%;
+    background-color: #2d1f16;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #d4a574;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.team-member {
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.member-avatar {
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.team-member h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #d4a574;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
 @media (max-width: 768px) {
     nav ul {
         gap: 1.5rem;
@@ -510,6 +618,23 @@ footer {
     
     .menu h2 {
         font-size: 2rem;
+    }
+    
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .about-section.reverse {
+        direction: ltr;
+    }
+    
+    .team-grid {
+        grid-template-columns: 1fr;
     }
     
     .cursor-dot {
